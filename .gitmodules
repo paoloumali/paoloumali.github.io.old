@@ -1,0 +1,3 @@
+[submodule "collections"]
+	path = pu-md
+	url = https://github.com/paoloumali/pu-md.git

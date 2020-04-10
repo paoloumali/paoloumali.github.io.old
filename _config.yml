@@ -1,3 +1,5 @@
+collections_dir: pu-md/collections
+
 collections:
   authors:
     output: true
