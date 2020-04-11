@@ -1,3 +1,5 @@
+gem 'dotenv-rails', groups: [:development, :test]
+
 # frozen_string_literal: true
 
 source "https://rubygems.org"
@@ -8,7 +10,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll", "~> 4.0"
 
 # bundled theme
-gem "huenited", :path => "./.theme"
+gem "huenited", :path => ("./.theme" unless ENV['JEKYLL_ENV'] == "production")
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
