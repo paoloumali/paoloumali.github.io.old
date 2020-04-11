@@ -1,5 +1,3 @@
----
----
 # www.paoloumali.com
 
 Repo: https://github.com/paoloumali/paoloumali.github.io
