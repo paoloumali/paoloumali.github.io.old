@@ -1,6 +1,0 @@
-[submodule "theme"]
-	path = .theme
-	url = https://github.com/huenits/huenited.git
-[submodule "paoloumali.com-collections"]
-	path = paoloumali.com-collections
-	url = https://github.com/paoloumali/paoloumali.com-collections.git
