@@ -1,3 +1,15 @@
+lang: en
+title: Paolo Umali
+email: iam@paolo.ph
+description: >- # this means to ignore newlines until "baseurl:"
+  This is Paolo Umali's web space. Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit. Proin a rhoncus nisi, ut tempus ex. Integer eget est mattis,
+  maximus elit sed, scelerisque odio. Maecenas volutpat dui urna, ac viverra.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: huenisys
+github_username:  paoloumali
+
 collections_dir: pu-md/collections
 
 collections:
@@ -24,3 +36,23 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
