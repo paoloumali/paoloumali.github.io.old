@@ -10,7 +10,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem 'jekyll', '4.0.0'
 
 # bundled theme
-gem 'huenited', '0.1.0', :path => ('./.theme' unless ENV['JEKYLL_ENV'] == 'production')
+# gem 'huenited', '0.1.0', :path => ('./.theme' unless ENV['JEKYLL_ENV'] == 'production')
+gem 'huenited', '0.1.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -32,3 +33,5 @@ end
 # Performance-booster for watching directories on Windows
 gem 'wdm', '0.1.1', :install_if => Gem.win_platform?
 
+gem 'rake', '13.0.1'
+ruby '2.5.1'
