@@ -35,4 +35,3 @@ gem 'wdm', '0.1.1', :install_if => Gem.win_platform?
 
 gem 'bundler'
 gem 'rake', '13.0.1'
-ruby '2.5.1'
