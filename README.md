@@ -1,7 +1,7 @@
-# www.paoloumali.com
+# paoloumali.github.io
 
 Repo: https://github.com/paoloumali/paoloumali.github.io
-
+Github Pages: https://paoloumali.github.io
 
 
 ## Alias commands
