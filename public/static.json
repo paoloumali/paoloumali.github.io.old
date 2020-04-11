@@ -1,0 +1,11 @@
+{
+  "canonical_host": "${JEKYLL_HOST}",
+  "encoding": "UTF-8",
+  "clean_urls": false,
+  "https_only": false,
+  "root": "_site/",
+  "logging": {
+    "access": true,
+    "error": "warn"
+  }
+}
