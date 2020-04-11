@@ -25,13 +25,13 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: :year-:month-:day/:title
+      permalink: :year-:month-:day/:title:output_ext
   - scope:
       path: ""
       type: "authors"
     values:
       layout: "author"
-      permalink: authors/:title
+      permalink: authors/:title:output_ext
   - scope:
       path: ""
     values:
