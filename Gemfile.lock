@@ -1,9 +1,3 @@
-PATH
-  remote: .theme
-  specs:
-    huenited (0.1.0)
-      jekyll (~> 4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,6 +38,8 @@ GEM
     ffi (1.12.2)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
+    huenited (0.1.0)
+      jekyll (~> 4.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jekyll (4.0.0)
@@ -129,7 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv-rails
-  huenited!
+  huenited
   jekyll (~> 4.0)
   jekyll-feed
   jekyll-seo-tag
