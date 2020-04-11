@@ -2,15 +2,29 @@
 
 Repo: https://github.com/paoloumali/paoloumali.github.io
 
-## Local dev
 
-- $ ``bundle install``
-- $ ``bundle exec jekyll serve``
+
+## Alias commands
+
+- do: 
+  ```bash
+  chmod +x ./b
+  alias b="./b"
+  ```
+- $ ``b up``, to serve
+- $ ``b build``, to build prod
+- $ ``b``, to check stat
+
+## Local setup
+
+- $ ``b install``
+- $ ``b serve``
 - Browse http://localhost:4000
 
 ## Deploy
 
-- $ ``JEKYLL_ENV=production bundle exec jekyll build``
+- Enable Github Pages
+- Set custom domain
 
 ## VSCode extensions
 
