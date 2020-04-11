@@ -24,6 +24,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     builder (3.2.4)
     colorator (1.1.0)
+    colorize (0.8.1)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     dotenv (2.7.5)
@@ -124,20 +125,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  colorize (= 0.8.1)
   dotenv-rails
   huenited (= 0.1.0)
-  jekyll (= 4.0.0)
+  jekyll
   jekyll-feed (= 0.13.0)
   jekyll-seo-tag (= 2.6.1)
   jekyll-sitemap (= 1.4.0)
-  rake (= 13.0.1)
   tzinfo (= 1.2.7)
   tzinfo-data (= 1.2019.3)
   wdm (= 0.1.1)
-
-RUBY VERSION
-   ruby 2.5.1p57
 
 BUNDLED WITH
    2.1.4

@@ -6,10 +6,8 @@ if [ $# -gt 0 ]; then
         bundle exec jekyll serve
 
     elif [ "$1" == "build" ]; then
-        rm -rf _site
         rm -rf public
-        JEKYLL_ENV=production bundle exec jekyll build
-        mv _site public
+        JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_configProd.yml
 
     else
         bundle "$@"

@@ -1,18 +1,15 @@
-gem 'dotenv-rails', groups: [:development, :test]
-
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
-gem 'jekyll', '4.0.0'
+gem 'dotenv-rails', groups: [:development, :test, :dev]
+gem 'colorize', '0.8.1'
 
+gem 'jekyll'
 # bundled theme
-gem 'huenited', '0.1.0', :install_if => (ENV['JEKYLL_ENV'] != 'production')
-# gem 'huenited', '0.1.0', :path => ('./.theme' unless ENV['JEKYLL_ENV'] == 'production')
-# gem 'huenited', '0.1.0'
+gem 'huenited', '0.1.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -33,7 +30,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem 'wdm', '0.1.1', :install_if => Gem.win_platform?
-
-gem 'bundler'
-gem 'rake', '13.0.1'
-ruby '2.5.1'

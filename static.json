@@ -2,8 +2,8 @@
   "canonical_host": "${JEKYLL_HOST}",
   "encoding": "UTF-8",
   "clean_urls": false,
-  "https_only": false,
-  "root": "_site/",
+  "https_only": true,
+  "root": "public/",
   "logging": {
     "access": true,
     "error": "warn"

@@ -10,17 +10,17 @@ Prod: https://www.paoloumali.com
 
 - do: 
   ```bash
-  chmod +x ./b
-  alias b="./b"
+  chmod +x ./d
+  alias d="./d"
   ```
-- $ ``b up``, to serve
-- $ ``b build``, to build prod
-- $ ``b``, to check stat
+- $ ``d up``, to serve
+- $ ``d build``, to build prod
+- $ ``d``, to check stat
 
 ## Local setup
 
-- $ ``b install``
-- $ ``b serve``
+- $ ``d install``
+- $ ``d serve``
 - Browse http://localhost:4000
 
 ## Deploy
@@ -35,3 +35,6 @@ Prod: https://www.paoloumali.com
 ## Heroku notes
 
 - https://blog.heroku.com/jekyll-on-heroku
+- buildpacks
+  - heroku/ruby
+  - https://github.com/heroku/heroku-buildpack-static

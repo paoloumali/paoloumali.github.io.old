@@ -1,3 +1,4 @@
+strict_front_matter: true
 lang: en
 title: Paolo Umali
 email: iam@paolo.ph
@@ -13,8 +14,11 @@ github_username:  paoloumali
 remote_theme: huenits/huenited
 theme: huenited
 
+source: site
+destination: _site
+encoding: utf-8
+timezone: Asia/Manila
 collections_dir: collections
-
 collections:
   authors:
     output: true
@@ -25,7 +29,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: :year-:month-:day/:title:output_ext
+      permalink: post/:year-:month-:day-:title:output_ext
   - scope:
       path: ""
       type: "authors"
@@ -61,3 +65,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - /b
+  - /Rakefile
+  - /README.md
+  - /static.json
+  - /public

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Blog
-permalink: /blog.html
+title: Posts
+permalink: /posts.html
 ---
 # Latest Posts
 
