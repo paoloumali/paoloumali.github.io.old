@@ -1,3 +1,9 @@
+PATH
+  remote: .theme
+  specs:
+    huenited (0.1.0)
+      jekyll (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,8 +44,6 @@ GEM
     ffi (1.12.2)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    huenited (0.1.0)
-      jekyll (~> 4.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jekyll (4.0.0)
@@ -125,14 +129,14 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv-rails
-  huenited
-  jekyll (~> 4.0)
-  jekyll-feed
-  jekyll-seo-tag
-  jekyll-sitemap
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  huenited (= 0.1.0)!
+  jekyll (= 4.0.0)
+  jekyll-feed (= 0.13.0)
+  jekyll-seo-tag (= 2.6.1)
+  jekyll-sitemap (= 1.4.0)
+  tzinfo (= 1.2.7)
+  tzinfo-data (= 1.2019.3)
+  wdm (= 0.1.1)
 
 BUNDLED WITH
    2.1.4
