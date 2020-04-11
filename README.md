@@ -29,3 +29,7 @@ Github Pages: https://paoloumali.github.io
 ## VSCode extensions
 
 - Liquid
+
+## Heroku notes
+
+- https://blog.heroku.com/jekyll-on-heroku
