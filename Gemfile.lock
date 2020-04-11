@@ -1,3 +1,9 @@
+PATH
+  remote: .theme
+  specs:
+    huenited (0.1.0)
+      jekyll (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,6 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  huenited!
   jekyll (~> 4.0)
   jekyll-feed
   jekyll-seo-tag

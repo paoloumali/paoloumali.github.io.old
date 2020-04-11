@@ -10,6 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: huenisys
 github_username:  paoloumali
 
+theme: huenited
+
 collections_dir: pu-md/collections
 
 collections:

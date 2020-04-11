@@ -1,3 +1,6 @@
 [submodule "collections"]
 	path = pu-md
 	url = https://github.com/paoloumali/pu-md.git
+[submodule "theme"]
+	path = .theme
+	url = https://github.com/huenits/huenited.git
