@@ -8,8 +8,9 @@ gem 'dotenv-rails', groups: [:development, :test, :dev]
 gem 'colorize', '0.8.1'
 
 gem 'jekyll'
-# bundled theme
-gem 'huenited', '0.1.0'
+# bundled theme, WIP: Update theme
+# gem 'huenited', '0.1.0'
+gem "huenited", :path => "../huenited"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
