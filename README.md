@@ -13,20 +13,17 @@ Prod: https://www.paoloumali.com
   chmod +x ./d
   alias d="./d"
   ```
-- $ ``d up``, to serve
-- $ ``d build``, to build prod
-- $ ``d``, to check stat
 
 ## Local setup
 
 - $ ``d install``
-- $ ``d serve``
+- $ ``d up``
 - Browse http://localhost:4000
+- $ ``d build``, to build prod
 
 ## Deploy
 
-- Enable Github Pages
-- Set custom domain
+- Push to master
 
 ## VSCode extensions
 
@@ -36,5 +33,4 @@ Prod: https://www.paoloumali.com
 
 - https://blog.heroku.com/jekyll-on-heroku
 - buildpacks
-  - heroku/ruby
   - https://github.com/heroku/heroku-buildpack-static
