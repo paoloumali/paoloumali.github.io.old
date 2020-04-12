@@ -12,7 +12,7 @@ twitter_username: huenisys
 github_username:  paoloumali
 
 remote_theme: huenits/huenited
-theme: huenited
+theme:
 
 source: site
 destination: _site

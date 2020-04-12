@@ -3,7 +3,7 @@
 if [ $# -gt 0 ]; then
 
     if [ "$1" == "up" ]; then
-        bundle exec jekyll serve
+        bundle exec jekyll serve --config _config.yml,_configDev.yml
 
     elif [ "$1" == "build" ]; then
         rm -rf public
