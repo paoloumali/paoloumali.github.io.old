@@ -6,7 +6,13 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll', '4.0.0'
 # bundled theme, WIP: Update theme to use AMP
-gem 'huenited', '0.1.0'
+# gem 'huenited', '0.1.0', :path => "./huenited"
+
+if ENV['JEKYLL_ENV'] == 'production'
+   gem 'huenited'
+else
+   gem 'huenited', '0.1.0', :path => "./huenited"
+end
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

@@ -73,7 +73,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  huenited (= 0.1.0)
+  huenited
   jekyll (= 4.0.0)
   jekyll-feed (= 0.13.0)
   jekyll-seo-tag (= 2.6.1)
