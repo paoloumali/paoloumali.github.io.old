@@ -4,11 +4,8 @@ source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'dotenv-rails', groups: [:development, :test, :dev]
-gem 'colorize', '0.8.1'
-
-gem 'jekyll'
-# bundled theme
+gem 'jekyll', '4.0.0'
+# bundled theme, WIP: Update theme
 gem 'huenited', '0.1.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

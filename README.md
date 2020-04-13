@@ -6,6 +6,11 @@ Heroku Staging: https://pu-com.herokuapp.com
 Prod: https://www.paoloumali.com
 
 
+## Requirements
+
+- ruby: $ ``sudo apt-get install ruby-full``
+- bundler: $ ``gem install bundler``
+
 ## Alias commands
 
 - do: 
@@ -13,7 +18,7 @@ Prod: https://www.paoloumali.com
   chmod +x ./d
   alias d="./d"
   ```
-
+  
 ## Local setup
 
 - $ ``d install``
