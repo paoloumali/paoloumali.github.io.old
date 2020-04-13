@@ -1,4 +1,5 @@
 strict_front_matter: true
+livereload: true
 lang: en
 title: Paolo Umali
 email: iam@paolo.ph
