@@ -30,6 +30,16 @@ Prod: https://www.paoloumali.com
 
 - Push to master
 
+## Theme Notes
+
+- gem-based theme: huenited is being used
+- can be overriden by replicating then modifying the following:  
+  - _includes 
+  - _layouts
+  - _sass
+  - assets
+- tips: symlink from theme repo, then edit while $ ``d up``
+
 ## VSCode extensions
 
 - Liquid

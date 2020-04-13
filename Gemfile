@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll', '4.0.0'
-# bundled theme, WIP: Update theme
-gem 'huenited', '0.1.0'
+# bundled theme, WIP: Update theme to use AMP
+gem 'huenited', '0.1.0', :path => "./huenited"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

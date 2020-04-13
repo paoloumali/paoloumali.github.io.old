@@ -1,0 +1,3 @@
+[submodule "huenited"]
+	path = huenited
+	url = https://github.com/huenits/huenited.git
