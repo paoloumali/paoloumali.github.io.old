@@ -12,9 +12,8 @@ twitter_username: huenisys
 github_username:  paoloumali
 
 remote_theme: huenits/huenited
-theme:
 
-source: site
+source: documents
 destination: _site
 encoding: utf-8
 timezone: Asia/Manila
