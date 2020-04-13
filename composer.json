@@ -1,0 +1,12 @@
+{
+    "name": "paoloumali/paoloumali.github.io",
+    "type": "jekyll, nginx, static",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "paoloumali",
+            "email": "dev@paoloumali.com"
+        }
+    ],
+    "require": {}
+}
