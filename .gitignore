@@ -9,7 +9,7 @@ vendor/
 bin/
 
 # Ignore temporary theme override
-/jkl/assets
-/jkl/_includes
-/jkl/_layouts
-/jkl/_sass
+/jekyll-site/assets
+/jekyll-site/_includes
+/jekyll-site/_layouts
+/jekyll-site/_sass
