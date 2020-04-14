@@ -32,6 +32,8 @@ Prod: https://www.paoloumali.com
 
 ## Theme Notes
 
+- activate submodule
+  - $ ``git submodule add -b {branch} -f --name theme git@gh-pu:huenits/huenited.git theme``
 - gem-based theme: huenited is being used
 - can be overriden by replicating then modifying the following:  
   - _includes 
