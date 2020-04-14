@@ -9,7 +9,7 @@ vendor/
 bin/
 
 # Ignore temporary theme override
-/documents/assets
-/documents/_includes
-/documents/_layouts
-/documents/_sass
+/jkl/assets
+/jkl/_includes
+/jkl/_layouts
+/jkl/_sass

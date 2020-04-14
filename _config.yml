@@ -14,7 +14,7 @@ github_username:  paoloumali
 
 remote_theme: huenits/huenited
 
-source: documents
+source: jkl
 destination: _site
 encoding: utf-8
 timezone: Asia/Manila
