@@ -18,3 +18,5 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/public:/srv/jekyll/public \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+      env:
+        JEKYLL_ENV: production
