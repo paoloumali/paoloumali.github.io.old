@@ -11,7 +11,7 @@ gem 'jekyll', '4.0.0'
 if ENV['JEKYLL_ENV'] == 'production'
    gem 'huenited'
 else
-   gem 'huenited', '0.1.0', :path => "./theme"
+   gem 'huenited', :path => "./theme"
 end
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

@@ -59,7 +59,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (3.17.0)
+    rouge (3.18.0)
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
@@ -77,7 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  huenited (= 0.1.0)!
+  huenited!
   jekyll (= 4.0.0)
   jekyll-feed (= 0.13.0)
   jekyll-seo-tag (= 2.6.1)
