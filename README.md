@@ -30,6 +30,18 @@ Prod: https://www.paoloumali.com
 
 - Push to master
 
+## Theme Notes
+
+- activate submodule
+  - $ ``git submodule add -b {branch} -f --name theme git@gh-pu:huenits/huenited.git theme``
+- gem-based theme: huenited is being used
+- can be overriden by replicating then modifying the following:  
+  - _includes 
+  - _layouts
+  - _sass
+  - assets
+- tips: symlink from theme repo, then edit while $ ``d up``
+
 ## VSCode extensions
 
 - Liquid
@@ -38,4 +50,25 @@ Prod: https://www.paoloumali.com
 
 - https://blog.heroku.com/jekyll-on-heroku
 - buildpacks
+  - heroku/php
   - https://github.com/heroku/heroku-buildpack-static
+- Nginx redirect  
+  
+  ```conf
+  index index.html;
+  error_page 404 /404.html;
+
+  # redirect all trail slash and .html
+  rewrite ^(.+)/$ $1 permanent;
+  rewrite ^(.+)\.html$ $1 permanent;
+
+  # fallbacks
+  location ~ ^(.+)$ {
+    # First attempt to serve request as file, then
+    # as .html
+    # as directory, then fall back to displaying a 404.
+    try_files $uri $uri.html $uri/index.html $uri/ =404;
+  }
+
+  ```  
+-

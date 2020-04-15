@@ -1,0 +1,14 @@
+{
+  "name": "paoloumali/paoloumali.github.io",
+  "license": "MIT",
+  "description": "Static site staging for paoloumali.com",
+  "authors": [
+      {
+          "name": "paoloumali",
+          "email": "dev@paoloumali.com"
+      }
+  ],
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}

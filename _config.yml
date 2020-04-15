@@ -14,8 +14,7 @@ github_username:  paoloumali
 
 remote_theme: huenits/huenited
 
-source: documents
-destination: _site
+source: jekyll-site
 encoding: utf-8
 timezone: Asia/Manila
 collections_dir: collections
@@ -25,17 +24,29 @@ collections:
 
 defaults:
   - scope:
+      path: "*.html"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: :basename
+  - scope:
+      path: "*.md"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: :basename
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      permalink: post/:year-:month-:day-:title:output_ext
+      permalink: post/:year-:month-:day-:title
   - scope:
       path: ""
       type: "authors"
     values:
       layout: "author"
-      permalink: authors/:title:output_ext
+      permalink: authors/:title
   - scope:
       path: ""
     values:
