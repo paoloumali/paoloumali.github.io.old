@@ -1,4 +1,4 @@
 [submodule "theme"]
 	path = theme
-	url = git@gh-pu:huenits/huenited.git
+	url = https://github.com/huenits/huenited.git
 	branch = i1/paoloumali-amp-ready
