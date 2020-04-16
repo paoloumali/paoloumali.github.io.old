@@ -1,6 +1,5 @@
-destination: public
-theme: huenited
 url: https://www.paoloumali.com
+destination: public
 
 sass:
   style: compressed

@@ -12,9 +12,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: huenisys
 github_username:  paoloumali
 
-remote_theme: huenits/huenited
+theme: huenited
 
 source: jekyll-docs
+destination: _site
 encoding: utf-8
 timezone: Asia/Manila
 collections_dir: collections

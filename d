@@ -13,8 +13,13 @@ if [ $# -gt 0 ]; then
         JEKYLL_ENV=production bundle exec jekyll s --config _config.yml,__dev.yml
 
     elif [ "$1" == "build" ] || [ "$1" == "b" ]; then
-        rm -rf public
+
+      if [ ${JEKYLL_ENV} == 'production' ]; then
+        # explicitly add JEKYLL_ENV=production to generate public
         JEKYLL_ENV=production bundle exec jekyll b --config _config.yml,__prod.yml
+      else
+        JEKYLL_ENV=development bundle exec jekyll b --config _config.yml,__dev.yml
+      fi
 
     else
         JEKYLL_ENV=production bundle "$@"
