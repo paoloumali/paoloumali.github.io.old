@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: GitHub Checkout
       uses: actions/checkout@v2
+      with:
+        submodules: true
     - name: Bundler Cache
       uses: actions/cache@v1
       with:
