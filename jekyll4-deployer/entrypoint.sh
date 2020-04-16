@@ -4,7 +4,6 @@ set -e
 
 DEST="${JEKYLL_DESTINATION:-_site}"
 REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-BRANCH="gh-pages"
 
 echo "JEKYLL_ENV: ${JEKYLL_ENV}"
 echo "Installing gems..."
@@ -32,7 +31,7 @@ git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 git add .
 git commit -m "published by GitHub Actions"
-git push --force ${REPO} master:${BRANCH}
+git push --force ${REPO} master:gh-pages
 
 END
 
@@ -41,4 +40,4 @@ git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 git add -A
 git commit -m "published by GitHub Actions"
-git push --force ${REPO} master:${BRANCH}
+git push --force ${REPO} dev:gh-pages
