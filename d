@@ -3,7 +3,8 @@
 if [ $# -gt 0 ]; then
 
     if [ "$1" == "install" ] || [ "$1" == "i" ]; then
-      bundle i
+      bundle config path vendor/bundle
+      bundle install --jobs 4 --retry 3
 
     elif [ "$1" == "update" ] || [ "$1" == "u" ]; then
       bundle u
