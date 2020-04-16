@@ -1,4 +1,9 @@
-[submodule "theme"]
-	path = theme
-	url = git@gh-pu:huenits/huenited.git
-	branch = i1/paoloumali-amp-ready
+[submodule "jekyll-docs"]
+	path = jekyll-docs
+	url = https://github.com/Paolo-WWW/pu-jekyll-docs.git
+[submodule "jekyll-theme"]
+	path = jekyll-theme
+	url = https://github.com/huenits/huenited.git
+[submodule "jekyll4-deployer"]
+	path = jekyll4-deployer
+	url = https://github.com/Paolo-WWW/jekyll4-deploy-gh-pages.git
