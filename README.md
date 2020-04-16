@@ -26,15 +26,16 @@ Prod: https://www.paoloumali.com
 - Browse http://localhost:4000
 - $ ``d build``, to build prod
 
-## Deploy
+## Deploy Notes
 
-- Push to master
+- Deploy master(prod built jekyll site) to live domain
+- A GH Action (sample [template](https://github.com/Paolo-WWW/jekyll4-deploy-gh-pages.git)) was merged to this repo
 
 ## Theme Notes
 
 - activate submodules
-  - $ ``git submodule add -b {branch} -f --name jekyll-theme https://github.com/huenits/huenited.git jekyll-theme``
-  - $ ``git submodule add -b {branch} -f --name jekyll-docs https://github.com/Paolo-WWW/pu-jekyll-docs.git jekyll-docs``
+  - $ ``git submodule add -f --name jekyll-theme https://github.com/huenits/huenited.git jekyll-theme``
+  - $ ``git submodule add -f --name jekyll-docs https://github.com/Paolo-WWW/pu-jekyll-docs.git jekyll-docs``
 - gem-based theme: huenited is being used
 - can be overriden by replicating then modifying the following:  
   - _includes 
