@@ -23,11 +23,22 @@ fi
 
 echo "Publishing..."
 
+: <<'END'
+
 cd ${DEST}
 
 git init
 git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 git add .
+git commit -m "published by GitHub Actions"
+git push --force ${REPO} master:${BRANCH}
+
+END
+
+git init
+git config user.name "${GITHUB_ACTOR}"
+git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+git add -A
 git commit -m "published by GitHub Actions"
 git push --force ${REPO} master:${BRANCH}
