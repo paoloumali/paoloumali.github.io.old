@@ -13,6 +13,7 @@ twitter_username: huenisys
 github_username:  paoloumali
 
 theme: huenited
+remote_theme: huenits/huenited
 
 source: jekyll-docs
 destination: _site
