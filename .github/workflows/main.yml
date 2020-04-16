@@ -20,7 +20,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
     - name: Build & Deploy to GitHub Pages
-      uses: Paolo-WWW/jekyll4-deploy-gh-pages@master
+      uses: paoloumali/paoloumali.github.io@i15/pu-jekyll4-deployer
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}

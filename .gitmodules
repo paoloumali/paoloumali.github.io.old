@@ -4,6 +4,3 @@
 [submodule "jekyll-theme"]
 	path = jekyll-theme
 	url = https://github.com/huenits/huenited.git
-[submodule "jekyll4-deployer"]
-	path = jekyll4-deployer
-	url = https://github.com/Paolo-WWW/jekyll4-deploy-gh-pages.git
