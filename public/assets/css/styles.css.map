@@ -3,12 +3,12 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"jekyll-site/_sass/_main.scss"
+		"jekyll-docs/_sass/_main.scss"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		".current {\n  color: green;\n}\n\nhtml {\n  background-color: whitesmoke;\n}\n"
+		".current {\n  color: green;\n}\n\nhtml {\n  background-color: whitesmoke;\n  color: #111;\n}\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,AAAC,CACP,KAAK,CAAE,KAAK,CACb,AAED,AAAA,IAAI,AAAC,CACH,gBAAgB,CAAE,UAAU,CAC7B"
+	"mappings": "ACAA,AAAA,QAAQ,AAAC,CACP,KAAK,CAAE,KAAK,CACb,AAED,AAAA,IAAI,AAAC,CACH,gBAAgB,CAAE,UAAU,CAC5B,KAAK,CAAE,IAAI,CACZ"
 }

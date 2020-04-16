@@ -1,5 +1,5 @@
 PATH
-  remote: theme
+  remote: jekyll-theme
   specs:
     huenited (0.1.0)
       jekyll (~> 4.0)

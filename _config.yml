@@ -14,7 +14,7 @@ github_username:  paoloumali
 
 remote_theme: huenits/huenited
 
-source: jekyll-site
+source: jekyll-docs
 encoding: utf-8
 timezone: Asia/Manila
 collections_dir: collections

@@ -32,8 +32,9 @@ Prod: https://www.paoloumali.com
 
 ## Theme Notes
 
-- activate submodule
-  - $ ``git submodule add -b {branch} -f --name theme https://github.com/huenits/huenited.git theme``
+- activate submodules
+  - $ ``git submodule add -b {branch} -f --name jekyll-theme https://github.com/huenits/huenited.git jekyll-theme``
+  - $ ``git submodule add -b {branch} -f --name jekyll-docs https://github.com/Paolo-WWW/pu-jekyll-docs.git jekyll-docs``
 - gem-based theme: huenited is being used
 - can be overriden by replicating then modifying the following:  
   - _includes 
@@ -72,3 +73,7 @@ Prod: https://www.paoloumali.com
 
   ```  
 -
+
+## Github Actions/CI notes
+
+- https://github.com/marketplace/actions/jekyll-4-build-deploy

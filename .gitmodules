@@ -1,4 +1,6 @@
-[submodule "theme"]
-	path = theme
+[submodule "jekyll-docs"]
+	path = jekyll-docs
+	url = https://github.com/Paolo-WWW/pu-jekyll-docs.git
+[submodule "jekyll-theme"]
+	path = jekyll-theme
 	url = https://github.com/huenits/huenited.git
-	branch = i1/paoloumali-amp-ready
