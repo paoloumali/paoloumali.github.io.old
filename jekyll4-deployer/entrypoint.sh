@@ -6,14 +6,20 @@ DEST="${JEKYLL_DESTINATION:-_site}"
 REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 BRANCH="gh-pages"
 
+echo "JEKYLL_ENV: ${JEKYLL_ENV}"
 echo "Installing gems..."
 
-JEKYLL_ENV=production bundle config path vendor/bundle
-JEKYLL_ENV=production bundle install --jobs 4 --retry 3
+bundle config path vendor/bundle
+bundle install --jobs 4 --retry 3
 
 echo "Building Jekyll site..."
 
-JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,__prod.yml
+if [ ${JEKYLL_ENV} == production ]
+  then
+    bundle exec jekyll build --config _config.yml,__prod.yml
+  else
+    bundle exec jekyll build --config _config.yml,__dev.yml
+fi
 
 echo "Publishing..."
 
