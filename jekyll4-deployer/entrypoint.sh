@@ -42,4 +42,4 @@ echo "GITHUB_REF: ${GITHUB_REF##*/}"
 git add public*
 git commit -m "published public/ by GitHub Actions"
 git checkout -b temp
-git push --force ${REPO} temp:staging
+git push --force ${REPO} temp:builds
