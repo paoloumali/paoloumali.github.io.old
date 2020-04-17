@@ -25,7 +25,7 @@ jobs:
 
       - name: Build & Deploy to GitHub Pages
         # uses: paoloumali/paoloumali.github.io@dev
-        uses: paoloumali/paoloumali.github.io@i19p/pu-betterBranching
+        uses: paoloumali/paoloumali.github.io@dev
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
