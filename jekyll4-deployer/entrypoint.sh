@@ -38,8 +38,7 @@ END
 git init
 git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-echo "GITHUB_REF: ${GITHUB_REF##*/}"
 git add public*
-git commit -m "published public/ by GitHub Actions"
+git commit -m "published public/ by GitHub Actions from $(git branch | sed -n -e 's/^\* \(.*\)/\1/p')"
 git checkout -b temp
 git push --force ${REPO} temp:builds
